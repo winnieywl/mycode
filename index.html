@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f3155924d2c1bb344ff6178903042888 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f3155924d2c1bb344ff6178903042888" ></div>
+        
+</body>
+<script>    
+    
+            var map_f3155924d2c1bb344ff6178903042888 = L.map(
+                "map_f3155924d2c1bb344ff6178903042888",
+                {
+                    center: [40.7143, -74.0118],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 40,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5174d7374880c98286a5d5b4138eedf3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f3155924d2c1bb344ff6178903042888);
+        
+    
+            var marker_110027f53243c04b105faf44b0163143 = L.marker(
+                [40.7143, -74.0118],
+                {}
+            ).addTo(map_f3155924d2c1bb344ff6178903042888);
+        
+    
+            var icon_b989e1d5a5fd304c981776324075ef11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_110027f53243c04b105faf44b0163143.setIcon(icon_b989e1d5a5fd304c981776324075ef11);
+        
+    
+        var popup_cf046a65531d0e7669ddb3facedc68e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50c84424711d22a604d3369df8d54ed0 = $(`<div id="html_50c84424711d22a604d3369df8d54ed0" style="width: 100.0%; height: 100.0%;">BNY Mellon</div>`)[0];
+            popup_cf046a65531d0e7669ddb3facedc68e8.setContent(html_50c84424711d22a604d3369df8d54ed0);
+        
+
+        marker_110027f53243c04b105faf44b0163143.bindPopup(popup_cf046a65531d0e7669ddb3facedc68e8)
+        ;
+
+        
+    
+    
+            var marker_a12bffa7f4ccbf6666fe20f07c3b22d4 = L.marker(
+                [40.741895, -73.989308],
+                {}
+            ).addTo(map_f3155924d2c1bb344ff6178903042888);
+        
+    
+            var icon_56d6378c4fcfa8466ae94cd85ab5f0d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a12bffa7f4ccbf6666fe20f07c3b22d4.setIcon(icon_56d6378c4fcfa8466ae94cd85ab5f0d3);
+        
+    
+        var popup_0282bfca382f770f3db6c4df69b64bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbdd65d1c2672c160bb792d33cbc4a95 = $(`<div id="html_cbdd65d1c2672c160bb792d33cbc4a95" style="width: 100.0%; height: 100.0%;">Xi'An Famous Food</div>`)[0];
+            popup_0282bfca382f770f3db6c4df69b64bb0.setContent(html_cbdd65d1c2672c160bb792d33cbc4a95);
+        
+
+        marker_a12bffa7f4ccbf6666fe20f07c3b22d4.bindPopup(popup_0282bfca382f770f3db6c4df69b64bb0)
+        ;
+
+        
+    
+    
+            var marker_429ba24474ebae6b769924c7f1e542f8 = L.marker(
+                [40.7146382, -73.9985571],
+                {}
+            ).addTo(map_f3155924d2c1bb344ff6178903042888);
+        
+    
+            var icon_55cfb417307f39b7909c5b8e32880752 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_429ba24474ebae6b769924c7f1e542f8.setIcon(icon_55cfb417307f39b7909c5b8e32880752);
+        
+    
+        var popup_5efa3fcc5a68747a398c6343dff7d83a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ede627581c5c99238641aec0585d705 = $(`<div id="html_1ede627581c5c99238641aec0585d705" style="width: 100.0%; height: 100.0%;">Beijing Duck House</div>`)[0];
+            popup_5efa3fcc5a68747a398c6343dff7d83a.setContent(html_1ede627581c5c99238641aec0585d705);
+        
+
+        marker_429ba24474ebae6b769924c7f1e542f8.bindPopup(popup_5efa3fcc5a68747a398c6343dff7d83a)
+        ;
+
+        
+    
+    
+            var marker_7189ad2875733367935284964f79ea53 = L.marker(
+                [40.7136218, -73.9970903],
+                {}
+            ).addTo(map_f3155924d2c1bb344ff6178903042888);
+        
+    
+            var icon_0df5631d3db9c44f5186ea1514cc35e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7189ad2875733367935284964f79ea53.setIcon(icon_0df5631d3db9c44f5186ea1514cc35e6);
+        
+    
+        var popup_8d9b85ae9eb04061be3f85db3fdab9ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f666111dbb12b4c0cb52c98ed44e7f = $(`<div id="html_d4f666111dbb12b4c0cb52c98ed44e7f" style="width: 100.0%; height: 100.0%;">Golden Unicorn Dim Sum</div>`)[0];
+            popup_8d9b85ae9eb04061be3f85db3fdab9ef.setContent(html_d4f666111dbb12b4c0cb52c98ed44e7f);
+        
+
+        marker_7189ad2875733367935284964f79ea53.bindPopup(popup_8d9b85ae9eb04061be3f85db3fdab9ef)
+        ;
+
+        
+    
+</script>
